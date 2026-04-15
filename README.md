@@ -50,3 +50,13 @@ git clone https://github.com/YogeshSabbani1213/Yogesh-s-Portfolio.git
 cd Yogesh-s-Portfolio
 npm install
 npm run dev
+
+
+💡 About Me
+
+I am a passionate Full Stack Developer who enjoys building responsive and user-friendly web applications. I focus on writing clean code, solving real-world problems, and continuously improving my skills.
+
+📧 Contact
+GitHub: https://github.com/YogeshSabbani1213
+LinkedIn: https://www.linkedin.com/in/yogesh-sabbani-ba0911282/
+Email: yogeshsabbani67@gmail.com
