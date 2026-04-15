@@ -59,7 +59,7 @@ const Hero = () => {
           <img
             src={profile}
             alt="profile"
-            className="rounded-3xl w-[220px] sm:w-[300px] md:w-full  shadow-2xl object-cover hover:shadow-[0_0_60px_rgba(255,165,0,0.6)] animate-float"
+            className="rounded-3xl w-[220px] sm:w-[300px] md:w-full  shadow-2xl object-cover hover:shadow-[0_0_60px_rgba(255,165,0,0.6)] md:animate-float"
           />
         </div>
       </div>
