@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+
+
+body{
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+}
+.name{
+    font-family: "Great Vibes", cursive;
+    font-weight: 100;
+
+}
+
+/* Default (desktop) */
+.swiper-button-next,
+.swiper-button-prev {
+  color: white;
+}
+
+/* Mobile only */
+@media (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+   display: none !important;
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px); /* move up */
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+.react animate-float {
+  animation: float 3s ease-in-out infinite;
+}
