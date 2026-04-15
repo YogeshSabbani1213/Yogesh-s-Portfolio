@@ -53,7 +53,7 @@ Your application will be accessible worldwide with smooth performance and uptime
           >
             {data.map((card, i) => (
               <SwiperSlide key={i} className='flex flex-col justify-center items-center '>
-                <div className="min-h-[420px] md:w-[80%]  mx-auto bg-gray-800 rounded-xl px-4 py-4 pb-8 md:px-8 flex flex-col md:flex-row items-center md:items-center gap-4 md:gap-6">
+                <div className="min-h-[450px] md:w-[80%]  mx-auto bg-gray-800 rounded-xl px-4 py-4 pb-8 md:px-8 flex flex-col md:flex-row items-center md:items-center gap-4 md:gap-6">
                   <div className=' flex justify-center items-center flex-col px-4'> 
                     <img src={card.image} alt="" className=' w-30 h-fit object-contain ' />
                     <h5 className='text-white font-bold/20 pt-2'>{card.title}</h5>

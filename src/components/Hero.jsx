@@ -35,12 +35,12 @@ const Hero = () => {
           </div>
 
           <div className="flex mt-3 justify-center items-center white gap-2">
-            <a href="/public/yogesh_sabbani_resume.pdf"
+            <a href="/yogesh_sabbani_resume.pdf"
               target="_blank"
               className="rounded-full text-sm sm:text-sm md:text-sm lg:text-lg mt-3 md:mt-3 px-2 py-1 bg-orange-600 text-white   flex justify-center items-center md:w-fit hover:bg-white hover:text-gray-900">
               View CV
             </a>
-            <a href="/public/yogesh_sabbani_resume.pdf"
+            <a href="/yogesh_sabbani_resume.pdf"
               download
               className="rounded-full text-sm sm:text-sm md:text-sm lg:text-lg mt-3 md:mt-3 px-2 py-1 bg-orange-600 text-white   flex justify-center items-center md:w-fit hover:bg-white hover:text-gray-900 ">
               Download-CV <FaDownload />
