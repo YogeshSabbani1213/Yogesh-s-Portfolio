@@ -18,6 +18,7 @@ const Header = () => {
             <a href="#hero"><li className="text-white/80 hover:text-white">Home</li></a>
             <a href="#about"><li className="text-white/80 hover:text-white">About</li></a>
             <a href="#skills"><li className="text-white/80 hover:text-white">Skills</li></a>
+            <a href="#certifications"><li className="text-white/80 hover:text-white">Certifications</li></a>
             <a href="#customslider"><li className="text-white/80 hover:text-white">Services</li></a>
             <a href="#footer"><li className="text-white/80 hover:text-white">Contact</li></a>
           </ul>
@@ -31,10 +32,12 @@ const Header = () => {
         {/* Mobile Menu */}
         {menuOpen && (
           <div className="absolute top-17 left-0 w-full cursor-pointer  bg-gray-800 flex flex-col items-center py-5 gap-4 lg:hidden">
-            <a href="#hero"><span className="text-white/80 hover:text-white">Home</span></a>
-            <a href="#about"><span className="text-white/80 hover:text-white">About</span></a>
-            <a href="#skills"><span className="text-white/80 hover:text-white">Skills</span></a>
-           <a href="#footer"><span className="text-white/80 hover:text-white">Contact</span></a>
+            <a href="#hero" onClick={() => setMenuOpen(false)}><span className="text-white/80 hover:text-white">Home</span></a>
+            <a href="#about" onClick={() => setMenuOpen(false)}><span className="text-white/80 hover:text-white">About</span></a>
+            <a href="#skills" onClick={() => setMenuOpen(false)}><span className="text-white/80 hover:text-white">Skills</span></a>
+            <a href="#certifications" onClick={() => setMenuOpen(false)}><span className="text-white/80 hover:text-white">Certifications</span></a>
+            <a href="#customslider" onClick={() => setMenuOpen(false)}><span className="text-white/80 hover:text-white">Services</span></a>
+           <a href="#footer" onClick={() => setMenuOpen(false)}><span className="text-white/80 hover:text-white">Contact</span></a>
           </div>
         )}
       </header>

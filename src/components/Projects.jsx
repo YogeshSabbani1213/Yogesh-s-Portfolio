@@ -5,13 +5,13 @@ import linklogo from '../public/link.png'
 
 const Projects = () => {
     return (
-        <section id='projects' className="pt-[100px] -mt-[100px] px-1 sm:px-8 md:px-16 py-8">
+        <section id='projects' className=" pt-[70px] -mt-[70px] px-1 sm:px-8 md:px-16 py-8">
             <h3 className='md:text-center text-center text-2xl sm:text-4xl font-bold mb-2 mt-4 text-orange-600 px-4'>Projects</h3>
             <div className=' w-[90%] max-w-6xl mx-auto md:w-[99%] lg:w-[90%]'>
                 <div className=" space-y-4">
 
                     {/*  YOUTUBE PROJECT  */}
-                    <div className="bg-gray-800 rounded-xl px-4 py-4 pb-4 md:px-8 flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-6">
+                    <div className="slideflr  autoShow bg-gray-800 rounded-xl px-4 py-4 pb-4 md:px-8 flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-6">
 
                         {/* Image */}
                         <a
@@ -32,7 +32,7 @@ const Projects = () => {
 
                             {/* Title + Icon */}
                             <div className="flex items-center gap-2 mb-2">
-                                <h3 className="text-xl text-white md:text-white md:font-semibold">
+                                <h3 className=" text-xl text-white md:text-white md:font-semibold">
                                     YouTube Clone – Video Sharing Platform (MERN Stack)
                                 </h3>
 
@@ -77,7 +77,7 @@ const Projects = () => {
                     </div>
 
                     {/*  SHOPPYGLOBE PROJECT  */}
-                    <div className="bg-gray-800 rounded-xl p-4 md:px-8 flex flex-col md:flex-row items-start gap-4 md:gap-6">
+                    <div className=" slidefrl autoShow bg-gray-800 rounded-xl p-4 md:px-8 flex flex-col md:flex-row items-start gap-4 md:gap-6">
 
                         {/* Image */}
                         <a
@@ -98,7 +98,7 @@ const Projects = () => {
 
                             {/* Title */}
                             <div className="flex items-center gap-2 mb-2">
-                                <h3 className="text-xl text-white md:text-white md:font-semibold">
+                                <h3 className=" text-xl text-white md:text-white md:font-semibold">
                                     ShoppyGlobe – E-commerce Application
                                 </h3>
 

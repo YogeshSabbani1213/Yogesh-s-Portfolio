@@ -14,11 +14,11 @@ import tailwind from "../public/Tailwind CSS.png"
 
 const Skills = () => {
   return (
-    <section id="skills" className="  pt-[100px] -mt-[100px] px-1 sm:px-8 md:px-16 py-8">
+    <section id="skills" className=" autoShow md:pt-[250px] md:-mt-[250px] pt-[265px] -mt-[265px] px-1 sm:px-8 md:px-16 py-8">
         <h3 className="border-0 border-white md:text-center text-center text-2xl text-white sm:text-4xl font-bold mb-2">
           My <span className="text-orange-600">Skills</span>
         </h3>
-      <div className="border-0 border-white bg-gray-800 px-4 py-4 pb-4 rounded-xl w-[90%] max-w-6xl mx-auto
+      <div className="  bg-gray-800 px-4 py-4 pb-4 rounded-xl w-[90%] max-w-6xl mx-auto
       md:w-[99%] lg:w-[90%] ">
 
 

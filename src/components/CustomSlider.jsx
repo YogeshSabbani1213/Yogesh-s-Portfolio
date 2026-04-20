@@ -35,8 +35,8 @@ Your application will be accessible worldwide with smooth performance and uptime
     }
   ]
   return (
-    <section id="customslider" className='pt-[100px] mt-[-100px] px-1 sm:px-8 md:px-16 py-8'>
-      <div>
+    <section id="customslider" className='autoShow md:pt-[300px] md:-mt-[300px] pt-[260px] -mt-[260px]  px-1 sm:px-8 md:px-16 py-8'>
+      <div className=''>
         <h1 className='md:text-center text-center text-2xl sm:text-4xl font-bold mb-2 mt-4 text-orange-600 px-4'>Services</h1>
         <div className='w-[90%] max-w-6xl mx-auto md:w-[99%] lg:w-[90%]'>
           <Swiper

@@ -3,8 +3,8 @@ import internshala from '../public/Internshala_company_logo.png'
 
 function Certificates() {
     return (
-        <section id="certificate" className=" px-1 sm:px-8 md:px-16 py-8">
-            <div>
+        <section id="certifications" className="autoShow md:pt-[210px] md:-mt-[210px] pt-[310px] -mt-[310px] px-1 sm:px-8 md:px-16 py-8">
+            <div className=''>
                 <h1 className='md:text-center text-center text-2xl sm:text-4xl font-bold mb-2 mt-4 text-orange-600 px-4'>Certifications 🏆</h1>
                 <div className=' w-[90%] max-w-6xl mx-auto md:w-[99%] lg:w-[90%] '>
                     <div className="bg-gray-800 rounded-xl px-4 py-4 pb-4 md:px-8 flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-6">
