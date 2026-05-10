@@ -2,6 +2,7 @@ import React from 'react'
 import yt from '../public/youtube.png';
 import shoppyglobe from '../public/ShoppyGlobe.png'
 import linklogo from '../public/link.png'
+import { SquareArrowOutUpRight } from 'lucide-react';
 
 const Projects = () => {
     return (
@@ -41,11 +42,7 @@ const Projects = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <img
-                                        src={linklogo}
-                                        alt="link"
-                                        className="w-12 h-fit md:w-7 md:h-fit hover:scale-110 transition cursor-pointer"
-                                    />
+                                    <SquareArrowOutUpRight />
                                 </a>
                             </div>
 
@@ -107,11 +104,8 @@ const Projects = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <img
-                                        src={linklogo}
-                                        alt="link"
-                                        className="w-12 h-fit md:w-7 md:h-fit hover:scale-110 transition cursor-pointer"
-                                    />
+                                    <SquareArrowOutUpRight />
+
                                 </a>
                             </div>
 
@@ -136,7 +130,7 @@ const Projects = () => {
                                 <p className='text-white/70  px-1 py-1 w-fit rounded-xl bg-gray-900 '>React Router</p>
                                 <p className='text-white/70  px-1 py-1 w-fit rounded-xl bg-gray-900 '>State Management</p>
 
-                            </div>                        
+                            </div>
                         </div>
                     </div>
 
