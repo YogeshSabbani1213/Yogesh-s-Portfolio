@@ -10,7 +10,7 @@ const About = () => {
           <img
             src={Whatido}
             alt=""
-            className="w-full  hidden lg:block   md:w-[45%] rounded-2xl"
+            className="whatido w-full  hidden lg:block   md:w-[45%] rounded-2xl"
           />
 
           <div>
