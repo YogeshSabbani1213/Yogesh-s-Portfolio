@@ -45,7 +45,7 @@ const Footer = () => {
       <div className="border-t border-gray-700 pt-4">
 
         <p className="text-gray-500 text-sm">
-          © 2026 Designed & Built with ❤️ by{" "}
+          © 2026 Designed & Built with by{" "}
           <span className="text-orange-500">Yogesh Sabbani</span>
         </p>
 
