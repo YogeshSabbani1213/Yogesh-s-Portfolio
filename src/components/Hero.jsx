@@ -55,11 +55,11 @@ const Hero = () => {
         </div>
 
         {/* Image */}
-        <div className="mt-4 flex justify-center items-center md:w-[400px] relative">
+        <div className="mt-4 flex justify-center items-center md:w-100 relative">
           <img
             src={profile}
             alt="profile"
-            className="profile rounded-3xl w-[220px] sm:w-[300px] md:w-full  shadow-2xl object-cover hover:shadow-[0_0_60px_rgba(255,165,0,0.6)] md:animate-float"
+            className="profile rounded-3xl w-55 sm:w-75 md:w-full  shadow-2xl object-cover hover:shadow-[0_0_60px_rgba(255,165,0,0.6)] md:animate-float"
           />
         </div>
       </div>
