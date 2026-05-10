@@ -117,105 +117,148 @@ html {
 }
 
 /*Hero Section*/
-.typing{
+.typing {
   /* border: 2px solid white; */
   border-right: 5px solid white;
   display: inline-block;
-  
+
   white-space: nowrap;
   overflow: hidden;
   animation: typing 2s steps(40) infinite alternate,
-              cursor .3s step-end infinite ;
+    cursor .3s step-end infinite;
 }
 
-@keyframes cursor{
-  50% {border-color:transparent}
-}
-@keyframes typing{
-  
-  from{max-width:0}
-  to{max-width: 100%}
+@keyframes cursor {
+  50% {
+    border-color: transparent
+  }
 }
 
-/*About Section */
-.typingAbout{
-  /* border: 2px solid white; */
-  animation:fadeIn 3s ease forwards;
-            /* scale(1); */
-}
+@keyframes typing {
 
-@keyframes fadeIn {
   from {
-    opacity: 0;
-    transform: translate(-200px);
+    max-width: 0
   }
+
   to {
-    opacity: 1;
-    transform: translate(0);
+    max-width: 100%
   }
 }
+
+
 
 /*Buttons Zoom in*/
-@keyframes zoom{
-  from{
+@keyframes zoom {
+  from {
     opacity: 0;
-    transform:scale(0.5);
+    transform: scale(0.5);
   }
-  to{
+
+  to {
     opacity: 1;
     transform: scale(1);
   }
 }
 
-.zoom,.profile{
+.zoom,
+.profile {
   animation: zoom 0.9s ease-out forwards;
 }
-.profile{
+
+.profile {
   box-shadow: 4px 6px 20px 2px rgb(86, 139, 156);
 
 }
 
 /*Hero icons*/
-@keyframes slideflr{
-  from{
+@keyframes slideflr {
+  from {
     opacity: 0;
     transform: translateX(-50px);
   }
-  to{
+
+  to {
     opacity: 1;
     transform: translateX(0);
   }
 }
-.icons{
+
+.icons {
   animation: slideflr 0.8s ease-in-out forwards;
 }
 
 /*Hero para*/
-@keyframes slidefrl{
-  from{
+@keyframes slidefrl {
+  from {
     opacity: 0;
     transform: translateX(80px);
   }
-  to{
+
+  to {
     opacity: 1;
     transform: translateX(0);
   }
 }
-.para{
+
+.para {
   animation: slidefrl 0.8s ease-in-out forwards;
 }
 
 /*Hero para*/
-@keyframes slidefTop{
-  from{
+@keyframes slidefTop {
+  from {
     opacity: 0;
     transform: translateY(-80px);
   }
-  to{
+
+  to {
     opacity: 1;
     transform: translateX(0);
   }
 }
-.hello{
+
+.hello {
   animation: slidefTop 0.7s ease-in-out forwards;
+}
+
+/*About Section */
+@media (min-width:600px) {
+  .typingAbout {
+    animation-name: aboutanimation;
+    animation-duration: 3s;
+
+    transition-property: transform;
+    transition-duration: 3s;
+  }
+}
+
+@keyframes aboutanimation {
+  from {
+    /* opacity: 0; */
+    transform: translateX(3000px);
+  }
+
+  to {
+    /* opacity: 1; */
+    transform: translateX(0);
+  }
+}
+
+@media(min-width:600px){
+  .whatido{
+    animation-name: aboutimg;
+    animation-duration: 3s;
+
+    transition-property: transform;
+    transition-duration: 3s;
+  }
+}
+
+@keyframes aboutimg {
+  from{
+    transform: translateX(-3000px);
+  }
+  to{
+    transform: translateX(0px);
+  }
 }
