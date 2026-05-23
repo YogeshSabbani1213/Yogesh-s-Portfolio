@@ -2,6 +2,7 @@ import React from 'react'
 import yt from '../public/youtube.png';
 import shoppyglobe from '../public/ShoppyGlobe.png'
 import linklogo from '../public/link.png'
+import jobportal from '/jobportal.png'
 import { SquareArrowOutUpRight } from 'lucide-react';
 
 const Projects = () => {
@@ -11,13 +12,82 @@ const Projects = () => {
             <div className=' w-[90%] max-w-6xl mx-auto md:w-[99%] lg:w-[90%]'>
                 <div className=" space-y-4">
 
+                    {/* Job portal project */}
+                    <div className="slideflr  autoShow bg-gray-800 rounded-xl px-4 py-4 pb-4 md:px-8 flex flex-col lg:flex-row items-center md:items-start gap-4 md:gap-6 overflow-hidden">
+
+                        {/* Image */}
+                        <a href="https://job-portal-web-application-nine.vercel.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="w-full md:w-[45%] flex justify-center overflow-hidden rounded-2xl"
+                        >
+                            <img
+                                src={jobportal}
+                                alt="youtube-logo"
+                                className="w-full
+                                            max-w-[320px]
+                                            sm:max-w-105
+                                            md:max-w-full
+                                            h-auto
+                                            object-contain
+                                            transition-transform
+                                            duration-300
+                                            hover:scale-105"/>
+                        </a>
+
+                        {/* Content */}
+                        <div className="text-gray-400 text-sm sm:text-lg leading-relaxed text-justify">
+
+                            {/* Title + Icon */}
+                            <div className="flex items-center gap-2 mb-2">
+                                <h3 className=" text-xl text-white md:text-white md:font-semibold">
+                                    Job Portal – Full Stack Recruitment Platform
+                                </h3>
+
+                                <a
+                                    href="https://job-portal-web-application-nine.vercel.app/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <SquareArrowOutUpRight />
+                                </a>
+                            </div>
+
+                            {/* Mobile Text */}
+                            <p className="text-md block md:hidden">
+                                Built a full-stack recruitment platform using the MERN stack that enables recruiters to post jobs and manage applicants while allowing job seekers to search and apply for opportunities. Implemented secure JWT authentication, role-based dashboards, resume uploads, protected APIs, and responsive UI components with optimized state management for a seamless user experience.
+                            </p>
+
+                            {/* Desktop Text */}
+                            <p className="hidden md:block">
+                                Built a full-stack recruitment platform using the MERN stack that enables recruiters to post jobs and manage applicants while allowing job seekers to search and apply for opportunities. Implemented secure JWT authentication, role-based dashboards, resume uploads, protected APIs, and responsive UI components with optimized state management for a seamless user experience.
+                            </p>
+
+                            <div className='flex flex-wrap gap-2 md:flex md:gap-2 md:flex-wrap mt-2'>
+                                <p className='text-white/70  px-1 py-1 w-fit rounded-xl bg-gray-900 '>Role-Based Access Control</p>
+                                <p className='text-white/70  px-1 py-1 w-fit rounded-xl bg-gray-900 '>React.js</p>
+                                <p className='text-white/70 px-1 py-1 w-fit rounded-xl bg-gray-900 '>MongoDB</p>
+                                <p className='text-white/70  px-1 py-1 w-fit rounded-xl bg-gray-900 '>Express.js</p>
+                                <p className='text-white/70  px-1 py-1 w-fit rounded-xl bg-gray-900 '>Node.js</p>
+                                <p className='text-white/70  px-1 py-1 w-fit rounded-xl bg-gray-900 '>JWT (JSON Web Tokens)</p>
+                                <p className='text-white/70  px-1 py-1 w-fit rounded-xl bg-gray-900 '>API Security / Protected Routes</p>
+                                <p className='text-white/70  px-1 py-1 w-fit rounded-xl bg-gray-900 '>RESTful API</p>
+                                <p className='text-white/70  px-1 py-1 w-fit rounded-xl bg-gray-900 '>Context API</p>
+                                <p className='text-white/70  px-1 py-1 w-fit rounded-xl bg-gray-900 '>React Router</p>
+                                <p className='text-white/70  px-1 py-1 w-fit rounded-xl bg-gray-900 '>State Management</p>
+                                <p className='text-white/70  px-1 py-1 w-fit rounded-xl bg-gray-900 '>Bcryptjs</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
                     {/*  YOUTUBE PROJECT  */}
                     <div className="slideflr  autoShow bg-gray-800 rounded-xl px-4 py-4 pb-4 md:px-8 flex flex-col lg:flex-row items-center md:items-start gap-4 md:gap-6 overflow-hidden">
 
                         {/* Image */}
                         {/* YOUTUBE IMAGE */}
-                        <a
-                            href="https://youtube-clone-fawn-three.vercel.app/"
+                        <a href="https://youtube-clone-fawn-three.vercel.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="w-full md:w-[45%] flex justify-center overflow-hidden rounded-2xl"
@@ -95,7 +165,7 @@ const Projects = () => {
                             <img
                                 src={shoppyglobe}
                                 alt="project"
-                                className="w-full max-w-[320px] sm:max-w-[420px] md:max-w-full h-auto object-contain rounded-2xl transition-transform duration-300 hover:scale-105"/>
+                                className="w-full max-w-[320px] sm:max-w-[420px] md:max-w-full h-auto object-contain rounded-2xl transition-transform duration-300 hover:scale-105" />
                         </a>
 
                         {/* Content */}
