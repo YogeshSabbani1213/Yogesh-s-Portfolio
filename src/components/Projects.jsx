@@ -12,20 +12,28 @@ const Projects = () => {
                 <div className=" space-y-4">
 
                     {/*  YOUTUBE PROJECT  */}
-                    <div className="slideflr  autoShow bg-gray-800 rounded-xl px-4 py-4 pb-4 md:px-8 flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-6">
+                    <div className="slideflr  autoShow bg-gray-800 rounded-xl px-4 py-4 pb-4 md:px-8 flex flex-col lg:flex-row items-center md:items-start gap-4 md:gap-6 overflow-hidden">
 
                         {/* Image */}
+                        {/* YOUTUBE IMAGE */}
                         <a
                             href="https://youtube-clone-fawn-three.vercel.app/"
                             target="_blank"
                             rel="noopener noreferrer"
+                            className="w-full md:w-[45%] flex justify-center overflow-hidden rounded-2xl"
                         >
-
                             <img
                                 src={yt}
                                 alt="youtube-logo"
-                                className="w-50 md:w-140 h-fit mx-auto md:mx-0 hover:scale-120 transition-transform duration-200"
-                            />
+                                className="w-full
+                                            max-w-[320px]
+                                            sm:max-w-105
+                                            md:max-w-full
+                                            h-auto
+                                            object-contain
+                                            transition-transform
+                                            duration-300
+                                            hover:scale-105"/>
                         </a>
 
                         {/* Content */}
@@ -77,17 +85,17 @@ const Projects = () => {
                     <div className=" slidefrl autoShow bg-gray-800 rounded-xl p-4 md:px-8 flex flex-col md:flex-row items-start gap-4 md:gap-6">
 
                         {/* Image */}
+                        {/* SHOPPYGLOBE IMAGE */}
                         <a
                             href="https://shoppy-globe-e-commerce-website.vercel.app/"
                             target="_blank"
                             rel="noopener noreferrer"
+                            className="w-full md:w-[45%] flex justify-center overflow-hidden rounded-2xl"
                         >
-
                             <img
                                 src={shoppyglobe}
                                 alt="project"
-                                className="md:w-120 w-60 h-fit rounded-2xl mx-auto md:mx-0 hover:scale-120 transition-transform duration-200"
-                            />
+                                className="w-full max-w-[320px] sm:max-w-[420px] md:max-w-full h-auto object-contain rounded-2xl transition-transform duration-300 hover:scale-105"/>
                         </a>
 
                         {/* Content */}
