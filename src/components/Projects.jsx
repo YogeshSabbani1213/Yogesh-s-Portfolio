@@ -9,7 +9,7 @@ const Projects = () => {
     return (
         <section id='projects' className=" pt-[70px] -mt-[70px] px-1 sm:px-8 md:px-16 py-8">
             <h3 className='md:text-center text-center text-2xl sm:text-4xl font-bold mb-2 mt-4 text-orange-600 px-4'>Projects</h3>
-            <div className=' w-[90%] max-w-6xl mx-auto md:w-[99%] lg:w-[90%]'>
+            <div className='w-[90%] max-w-6xl mx-auto md:w-[99%] lg:w-[90%]'>
                 <div className=" space-y-4">
 
                     {/* Job portal project */}

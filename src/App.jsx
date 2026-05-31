@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Certificates from "./components/Certificates";
 import CustomSlider from "./components/CustomSlider";
 import Loader from "./components/Loader"; 
+import Experience from "./components/Experience";
 
 const App = () => {
 
@@ -31,6 +32,7 @@ const App = () => {
           <Hero />
           <About />
           <Skills />
+          <Experience/>
           <Projects />
           <Certificates />
           <CustomSlider />

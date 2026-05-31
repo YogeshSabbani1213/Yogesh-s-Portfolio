@@ -40,7 +40,7 @@ const Hero = () => {
               className="zoom rounded-full text-sm sm:text-sm md:text-sm lg:text-lg mt-3 md:mt-3 px-2 md:px-3 py-1  bg-orange-600 text-white   flex justify-center items-center md:w-fit hover:bg-white hover:text-gray-900">
               View CV
             </a>
-            <a href="/yogesh_sabbani_resume.pdf"
+            <a href="/YogeshSabbani_Resume.pdf"
               download
               className=" zoom rounded-full text-sm sm:text-sm md:text-sm lg:text-lg mt-3 md:mt-3 px-2 md:px-3 py-1 bg-orange-600 text-white   flex justify-center items-center md:w-fit hover:bg-white hover:text-gray-900 ">
               Download-CV <FaDownload />

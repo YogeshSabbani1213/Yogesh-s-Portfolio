@@ -76,7 +76,7 @@ html {
 }
 
 /*Only on projects that too in laptop,desktop*/
-@keyframes slideflr {
+/* @keyframes slideflr {
   from {
     opacity: 0;
     transform: translateX(-100px);
@@ -114,7 +114,7 @@ html {
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
   }
-}
+} */
 
 /*Hero Section*/
 .typing {
