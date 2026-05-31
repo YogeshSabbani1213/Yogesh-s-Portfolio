@@ -29,7 +29,7 @@ const Hero = () => {
             <a href="https://www.linkedin.com/in/yogesh-sabbani-ba0911282/" target="_blank">
               <FaLinkedin className="linkedin hover:scale-120 hover:text-white transition-transform duration-200" />
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/yogesh_kannaya?igsh=d25kZTF2ODdyczRr" target="_blank">
               <FaInstagram className="instagram hover:scale-120 hover:text-white transition-transform duration-200"/>
             </a>
           </div>

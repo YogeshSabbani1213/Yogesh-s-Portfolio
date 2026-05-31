@@ -35,7 +35,7 @@ const Footer = () => {
           <FaLinkedin className="hover:text-white hover:scale-110 transition duration-300" />
         </a>
 
-        <a href="#">
+        <a href="https://www.instagram.com/yogesh_kannaya?igsh=d25kZTF2ODdyczRr" target="_blank">
           <FaInstagram className="hover:text-white hover:scale-110 transition duration-300" />
         </a>
 
